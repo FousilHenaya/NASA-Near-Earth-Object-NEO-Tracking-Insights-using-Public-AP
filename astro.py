@@ -499,3 +499,5 @@ if query=="Date with least asteroids":
     st.write("Date with the most approaches:")
     st.dataframe(date_counts.tail(1))
     
+curr.close()
+connection.close()
